@@ -1,3 +1,9 @@
+/*
+Assignment 2:- Pushing all zero's at end of array using merge sort
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
@@ -99,3 +105,14 @@ int main() {
 
     return 0;
 }
+/*
+Output:-
+Enter the number of elements (max 10): 5
+Enter 5 elements: 1
+0
+1
+0
+0
+Original array: 1 0 1 0 0 
+Sorted array with 0's at the end: 1 1 0 0 0
+*/
