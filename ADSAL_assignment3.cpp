@@ -1,3 +1,7 @@
+/*
+Assignment 3:- Smallest number of traling zero's in a factorial 
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -40,3 +44,9 @@ int main()
 
     return 0;
 }
+/*
+Output:- 
+Enter number of zeros: 3
+Smallest number whose factorial has 3 trailing zeros is: 
+15
+*/
