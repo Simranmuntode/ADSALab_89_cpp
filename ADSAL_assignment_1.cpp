@@ -41,4 +41,21 @@ int main() {
     }
 
     return 0;
+
 }
+
+
+/*
+Output:-
+Enter size of array:    5
+
+Enter elements in sorted order (1's and 0's):
+1
+0
+0
+0
+0
+Count of 0's:
+4
+
+*/
