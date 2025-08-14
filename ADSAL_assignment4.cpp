@@ -1,3 +1,13 @@
+//Assignment (Greedy Approach)
+/*Implement a problem of activity selection problem with K persons. 
+Statement: Given two arrays S[] and E[] of size N denoting starting and 
+closing time of the shops and an integer value K denoting the number 
+of people, the task is to find out the maximum number of shops they 
+can visit in total if they visit each shop optimally based on the following 
+conditions:
+ A shop can be visited by only one person.
+ A person cannot visit another shop if its timing collides with it.
+*/
 #include<iostream>
 using namespace std;
 int main()
@@ -63,3 +73,23 @@ int main()
     return 0;
 }
 
+/*
+Enter the no. of shops:
+4
+
+Enter starting time:
+1
+2
+3
+4
+
+Enter ending time:
+5
+3
+4
+5
+
+Enter no. of People:
+2
+The no. of shops visited: 4
+*/
